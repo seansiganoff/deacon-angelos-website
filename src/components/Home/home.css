@@ -1,0 +1,154 @@
+
+
+
+.home-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.home-background-bmw {
+    width: 100%;
+    height: 115vh;
+    object-fit: cover;
+    filter: brightness(50%);
+    box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.482);
+    
+}
+
+.home-text-top-left {
+  position: absolute;
+  top: 25vh;
+  left: 15%;
+  font-size: small;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.company-logo {
+    width: 500px;
+    border-radius: 30px;
+}
+
+.home-locations-bottom {
+  
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 100;
+  left: 5%;
+  color: rgb(68, 130, 31);
+  padding: 0 1.5rem 1rem 1.5rem;
+  border-radius: 80px;
+  text-align: center;
+}
+
+.home-p {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.253);
+    width: 600px;
+    background-color: rgba(209, 209, 209, 0.633);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.google-map {
+    width: 100%;
+    height: 60vh;
+}
+
+
+.contacts {
+    color: black;
+}
+
+
+
+
+
+@media only screen and (max-width: 1600px) { 
+    .home-text-top-left {
+        font-size: xx-large
+    }
+    .home-p {
+        font-size: medium;
+    }
+    .home-locations-bottom {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 1200px) { 
+    .seans-logo {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) { 
+    
+    .home-text-top-left {
+        font-size: xx-large;
+    }
+    
+    .home-p {
+        width: 85%;
+    }
+    .home-text-top-left {
+        width: 100%;
+        left: 0;
+        text-align: center;
+        top: 8rem;
+        font-size: medium;
+    }
+    
+    h1 {
+        font-size: large;
+        margin-bottom: 1rem;
+    }
+    .vehicle-icons-inner-div-bottom {
+        margin: 1rem 0;
+    }
+    
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    .home-text-top-left {
+      
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .locations {
+        font-size: medium;
+    }
+    .home-p {
+        margin: 0 auto;
+    }
+    .company-logo {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    h1 {
+        font-size: small;
+        padding: 1rem 10px;
+    }
+    
+    
+}

@@ -1,0 +1,144 @@
+.about {
+    margin: 0;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+    background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.about-us-text-container {
+    width: 45%;
+    margin: 3rem 1rem;
+    padding: 3rem 35px;
+    line-height: 29px;
+    background: white;
+    box-shadow: 0px 0px 45px 2px rgba(106, 106, 106, 0.253);
+}
+
+.about-why-us {
+    width: 30%;
+    padding: 1rem 7px 1rem 30px;
+    color: rgb(199, 85, 85);
+    border-radius: 30px;
+}
+
+.about h2 {
+    color: rgb(255, 0, 0);
+}
+
+
+.about-us-text-container p {
+    margin: 0;
+    font-size: large;
+    color: rgb(56, 56, 56);
+    word-break: keep-all;
+    padding-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+
+.about-us-img-container {
+    width: 45%;
+}
+
+.about-us-img {
+    width: 100%;
+    
+}
+
+
+.about-us-text-container li {
+    list-style: inside;
+}
+.about-us-text-container h3 {
+    margin: 0;
+    display: flex;
+    color: rgb(11, 181, 211);
+    word-break: keep-all;
+    font-size: 4vh;
+    padding-top: 11%;
+    padding-bottom: 3%;
+    font-weight: 100;
+}
+
+.about-us-text-container h1 {
+    color: rgb(62, 59, 59);
+    margin-bottom: 3rem;
+    font-size: large;
+    padding: 2rem 2rem;
+}
+
+
+.logo-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 14px 1px rgb(0, 0, 0);
+}
+
+.logo-container img {
+    height: 20vw;
+    width: 27vw;
+    padding: 15px;
+    max-width: 200px;
+    max-height: 140px;
+    object-fit: contain;
+}
+
+
+li {
+    list-style-type: circle;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .about {
+        display: block;
+        padding: 3rem 15px;
+    }
+    .about-us-text-container {
+        width: 100%;
+        padding: 3rem 10px;
+        margin: 0px;
+    }
+    .about-why-us {
+        width: 100%;
+        border-radius: 30px;
+        border-bottom: red;
+        border-top: black;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .about-us-text-container {
+        line-height: 21px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .about-banner, .services-banner {
+        font-size: x-large;
+    }
+   
+    .services {
+        background-position: center;
+    }
+}
