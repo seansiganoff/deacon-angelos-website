@@ -20,11 +20,12 @@
   position: absolute;
   top: 25vh;
   left: 15%;
-  font-size: small;
+  font-size: large;
   color: whitesmoke;
   text-align: center;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 .company-logo {
@@ -33,15 +34,15 @@
 }
 
 .home-locations-bottom {
-  
-  width: 90%;
+  background-color: rgba(255, 0, 0, 0.532);
+  padding: 15px;
+  width: 80%;
   margin: 0 auto;
   font-weight: 100;
   left: 5%;
   color: rgb(68, 130, 31);
-  padding: 0 1.5rem 1rem 1.5rem;
-  border-radius: 80px;
   text-align: center;
+  font-size: medium;
 }
 
 .home-p {
@@ -82,9 +83,9 @@
     .home-p {
         font-size: medium;
     }
-    .home-locations-bottom {
+    /* .home-locations-bottom {
         font-size: small;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1200px) { 

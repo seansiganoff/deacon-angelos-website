@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                 <div className="contact-us">
                     <h3 className='theme-color'>ADDRESS</h3>
-                    <p>418 Power House Dr, McKinney, TX 75071.</p>
+                    <p>Service Road, 201 N Central Expy, Richardson, TX 75080.</p>
                 </div>
             </div>
         </div>

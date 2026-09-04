@@ -7,7 +7,7 @@ const Insurance = () => {
         <div className='insurance-container'>
             <div className='insurance-header'>
                 <div className='span-div'>
-                    <img style={{width: '12px', height:'14px', marginRight: '3px', marginBottom: '15px'}} src={require('../../images/checkmark.png')} /><h6 style={{color:'rgb(26, 93, 180)'}}> WE MAKE IT EASY</h6>
+                    <img style={{width: '12px', height:'14px', marginRight: '3px', marginBottom: '15px'}} src={require('../../images/checkmark.png')} alt='car'/><h6 style={{color:'rgb(26, 93, 180)'}}> WE MAKE IT EASY</h6>
                 </div>
                 <h2 style={{color: 'black'}}>Insurance Claim</h2>
                 <h2 style={{color:'rgb(26, 93, 180)'}}>Assistance</h2>

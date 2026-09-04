@@ -28,7 +28,7 @@ const Home = () => {
           <img className='home-background-bmw' src={require('../../images/home-page-background-bmw-zoomed-out.png')}  alt='Audi background' />
           <div className='home-text-top-left'>
               <img className='company-logo' src={require('../../images/angelos-company-logo-transparant.png')} alt='company logo'/><br /><br />
-            <p className="home-locations-bottom"><b style={{color: 'white'}}>Address: Service Road, 201 N Central Expy, Richardson, TX 75080.</b></p>
+            <p className="home-locations-bottom"><b style={{color: 'white'}}>Address: Service Road, 201 N Central Expy, <br />Richardson, TX 75080.</b></p>
 
           </div>
           
