@@ -6,7 +6,7 @@
     align-items: center;
     padding: 0 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(192, 2, 2));
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(192, 2, 2), rgb(255, 255, 255));
 }
 
 
@@ -24,7 +24,7 @@
 .about-why-us {
     width: 30%;
     padding: 1rem 7px 1rem 30px;
-    color: rgb(199, 85, 85);
+    color: rgb(232, 232, 232);
     border-radius: 30px;
 }
 

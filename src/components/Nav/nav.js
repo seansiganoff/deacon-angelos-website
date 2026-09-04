@@ -1,5 +1,6 @@
 import React from 'react';
 import './nav.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -16,9 +17,10 @@ const Nav = () => {
   <div>
     <div className="container">
     <div className='nav-container'>
-      <div className='nav-business-name'><img className='nav-logo' src={require('../../images/angelos-company-logo.png')} alt='logo'/></div>
+      <Link to="/"><div className='nav-business-name'><img className='nav-logo' src={require('../../images/angelos-company-logo.png')} alt='logo'/></div></Link>
+      <Link to="/">HOME</Link>
         <div className='nav-number'>
-            <a href="tel:972-799-6031">CALL NOW <br />972-799-6031</a>
+            <Link to="/free-estimate">FREE ESTIMATE</Link>
         </div>
       </div>
     </div>

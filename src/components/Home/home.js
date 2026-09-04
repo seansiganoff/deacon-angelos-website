@@ -3,32 +3,58 @@ import './home.css';
 import About from '../About/About';
 import GoogleReviews from '../GoogleReviews/GoogleReviews';
 import Insurance from '../Insurance/Insurance';
+import { motion } from 'framer-motion';
 
 
-
-// import { motion } from 'framer-motion';
 
 const Home = () => {
 
   //Animates the vehicle icons when the page loads.
-  // const visible = { opacity: 1, x: 0, transition: { duration: 0.4 } };
-  //   const itemVariants = {
-  //     hidden: { opacity: 0, x: -710 },
-  //     visible
-  //   };
+  const visible = { opacity: 1, x: 0, transition: { duration: 2.4 } };
+    const itemVariants = {
+      hidden: { opacity: 0, x: 710 },
+      visible
+    };
 
 
   
 
   return (
     
+
+    
+
+
     <div className='header'>
       
         <div className='home-container'>
           <img className='home-background-bmw' src={require('../../images/home-page-background-bmw-zoomed-out.png')}  alt='Audi background' />
+          <motion.div 
+            initial="hidden"
+            animate="visible"
+            exit={{ opacity: 0, transition: { duration: 2.3 } }}
+            variants={{ visible: { transition: { staggerChildren: 4.2 } } }}
+            className="vehicle-icons-inner-div-top" >
+              
+              <motion.h1 variants={itemVariants}>WELCOME TO ADJUSTABLE AUTO BODY</motion.h1>
+          </motion.div>
+          
           <div className='home-text-top-left'>
-              <img className='company-logo' src={require('../../images/angelos-company-logo-transparant.png')} alt='company logo'/><br /><br />
+
+            <motion.div
+            initial={{ opacity: 0, scale: 1 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 7,
+              delay: 2,
+              ease: [0, 0.71, 0.2, 1.01]
+            }}>
+             
+            <img className='company-logo' src={require('../../images/angelos-company-logo-transparant.png')} alt='company logo'/><br /><br />
             <p className="home-locations-bottom"><b style={{color: 'white'}}>Address: Service Road, 201 N Central Expy, <br />Richardson, TX 75080.</b></p>
+          
+        </motion.div>
+              
 
           </div>
           

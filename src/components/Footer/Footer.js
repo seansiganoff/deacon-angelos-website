@@ -7,8 +7,10 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-overlay" id="contact-us">
                 <div className="contact-us">
-                   <h3 className='theme-color'>PHONE</h3>
-                     <a href="tel:972-799-6031">972-799-6031</a>
+                   <h3 className='theme-color'>CONTACT US</h3>
+                     <a href="tel:972-799-6031">CALL: 972-799-6031</a><br /><br />
+                     <a href="sms:972-799-6031">TEXT: 972-799-6031</a><br /><br />
+                     <a href="mailto:adjustableauto@gmail.com">EMAIL: adjustableauto@gmail.com</a>
                    </div>
                 <div className="contact-us">
                     <h3 className='theme-color'>HOURS</h3>
