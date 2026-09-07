@@ -3,8 +3,8 @@
     text-align: left;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0 3rem;
+    align-items: top;
+    padding: 2rem 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(192, 2, 2), rgb(255, 255, 255));
 }
@@ -24,12 +24,13 @@
 .about-why-us {
     width: 30%;
     padding: 1rem 7px 1rem 30px;
-    color: rgb(232, 232, 232);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
+    margin-top: 3rem;
 }
 
 .about h2 {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -106,7 +107,7 @@ li {
 
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .about {
         display: block;
         padding: 3rem 15px;
@@ -121,7 +122,10 @@ li {
         border-radius: 30px;
         border-bottom: red;
         border-top: black;
+        padding-bottom: 6rem;
+        padding-left: 0px;
     }
+    
 }
 
 

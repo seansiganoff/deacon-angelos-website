@@ -37,7 +37,7 @@
 }
 
 .nav-logo {
-    width: 80px;
+    width: 60px;
 }
 
 
@@ -169,16 +169,14 @@ a:visited {
         width: 3rem;
     }
     .nav-number {
-        font-size: medium;
+        font-size: small;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .nav-business-name {
-        font-size: x-small;
-    }
+    
     .nav-number {
-        font-size: small;
+        font-size: xx-small;
     }
 }
 

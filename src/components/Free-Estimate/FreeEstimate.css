@@ -67,3 +67,12 @@
     }
     
 } */
+
+@media only screen and (max-width: 400px) {
+    .quick-quote-banner {
+        font-size: medium;
+    }
+    .my-icons {
+        margin: 5px;
+    }
+}

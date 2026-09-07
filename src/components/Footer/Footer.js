@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer>
@@ -18,7 +18,12 @@ const Footer = () => {
                 </div>
                 <div className="contact-us">
                     <h3 className='theme-color'>ADDRESS</h3>
-                    <p>Service Road, 201 N Central Expy, Richardson, TX 75080.</p>
+                    <Link to="https://maps.app.goo.gl/6zc59e5Yn4oG5STLA">
+                        <div className='footer-address'>
+                            <img style={{width: '60px'}} src={require('../../images/map-icon.png')} alt='map icon'/>
+                            <p>Service Road, 201 N Central Expy, Richardson, TX 75080.</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

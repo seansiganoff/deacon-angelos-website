@@ -9,63 +9,53 @@
 
 .home-background-bmw {
     width: 100%;
-    height: 115vh;
+    height: 100vh;
     object-fit: cover;
     filter: brightness(50%);
     box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.482);
     
 }
 
-h1 {
+/* h1 {
     position: absolute;
     top: 15%;
+    width: 100%;
     transform: translate(-50%, -50%);
-    color: rgb(243, 251, 255);
-}
+} */
 
 
 .home-text-top-left {
   position: absolute;
-  top: 25vh;
-  left: 20%;
+  top: 55%;
+  left: 35%;
+  transform: translate(-50%, -50%);
   font-size: large;
   color: whitesmoke;
   text-align: center;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+  width: 70%;
 }
 
 .company-logo {
     width: 500px;
+    max-width: 500px;
     border-radius: 30px;
 }
 
 .home-locations-bottom {
-  background-color: rgba(0, 0, 0, 0.532);
+  background-color: rgba(103, 102, 102, 0.532);
   padding: 15px;
-  width: 80%;
+  width: 40%;
   margin: 0 auto;
   font-weight: 100;
   left: 5%;
-  color: rgb(68, 130, 31);
+  color: rgb(10, 10, 10);
   text-align: center;
-  font-size: medium;
+  font-size: small;
+  display: flex;
 }
 
-.home-p {
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.253);
-    width: 600px;
-    background-color: rgba(209, 209, 209, 0.633);
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 
 
@@ -84,9 +74,13 @@ h1 {
 
 
 
-@media only screen and (max-width: 1600px) { 
+@media only screen and (max-width: 1700px) { 
     .home-text-top-left {
-        font-size: xx-large
+        left: 50%;
+        width: 100%;
+    }
+    .home-locations-bottom {
+        width: 30%;
     }
     .home-p {
         font-size: medium;
@@ -96,33 +90,45 @@ h1 {
     } */
 }
 
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) { 
+    .home-text-top-left {
+        left: 50%;
+        top: 50%;
+    }
+    .home-locations-bottom {
+        width: 70%;
+    }
+    .home-locations-bottom {
+        width: 40%;
+    }
+}
+
 @media only screen and (max-width: 1200px) { 
-    .seans-logo {
-        width: 80%;
+    h1 {
+        font-size: xx-large;
     }
 }
 
 
 @media only screen and (max-width: 1000px) { 
     
-    .home-text-top-left {
-        font-size: xx-large;
-    }
     
+    .home-locations-bottom {
+        width: 50%;
+    }
     .home-p {
         width: 85%;
     }
-    .home-text-top-left {
-        width: 100%;
-        left: 0;
-        text-align: center;
-        top: 15rem;
-        font-size: medium;
-    }
+    
     
     h1 {
         font-size: x-large;
-        margin-bottom: 1rem;
     }
     .vehicle-icons-inner-div-bottom {
         margin: 1rem 0;
@@ -137,6 +143,9 @@ h1 {
       
         font-size: large;
     }
+    h1 {
+        font-size: large;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -147,25 +156,30 @@ h1 {
     .home-p {
         margin: 0 auto;
     }
-    .company-logo {
+    
+
+    .home-locations-bottom {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home-locations-bottom {
         width: 80%;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    
     h1 {
-        font-size: large;
-        padding: 1rem 10px;
+        padding: 10px 1rem;
     }
     
-    
+    .company-logo {
+        width: 100vw;
+    }
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
     
-    h1 {
-        font-size: medium;
+    .home-locations-bottom {
+        font-size: x-small;
+        width: 80%;
     }
     
     

@@ -18,7 +18,9 @@ const Nav = () => {
     <div className="container">
     <div className='nav-container'>
       <Link to="/"><div className='nav-business-name'><img className='nav-logo' src={require('../../images/angelos-company-logo.png')} alt='logo'/></div></Link>
-      <Link to="/">HOME</Link>
+        <div className='nav-number'>
+          <Link to="/">HOME</Link>
+        </div>
         <div className='nav-number'>
             <Link to="/free-estimate">FREE ESTIMATE</Link>
         </div>
