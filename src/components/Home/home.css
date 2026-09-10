@@ -81,6 +81,7 @@
     }
     .home-locations-bottom {
         width: 30%;
+        font-size: x-large;
     }
     .home-p {
         font-size: medium;
@@ -104,9 +105,7 @@
     .home-locations-bottom {
         width: 70%;
     }
-    .home-locations-bottom {
-        width: 40%;
-    }
+    
 }
 
 @media only screen and (max-width: 1200px) { 
@@ -160,6 +159,7 @@
 
     .home-locations-bottom {
         width: 60%;
+        font-size: x-large;
     }
 }
 
