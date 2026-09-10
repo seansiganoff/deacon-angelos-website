@@ -26,6 +26,7 @@
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
+    display: flex;
 }
 
 
@@ -86,7 +87,7 @@ li {
 
 
 
-.nav-links {
+/* .nav-links {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -98,10 +99,15 @@ li {
     padding-top: 7rem;
     font-weight: 600;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+
+.nav-links {
+    margin: 0px 15px 0px 40px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(188, 10, 10));
+    padding: 7px 2rem;
+    border-radius: 30px;
 }
-
-
-
 
 .close-btn-div {
     display: flex;

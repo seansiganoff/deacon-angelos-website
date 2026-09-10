@@ -18,11 +18,10 @@ const Nav = () => {
     <div className="container">
     <div className='nav-container'>
       <Link to="/"><div className='nav-business-name'><img className='nav-logo' src={require('../../images/angelos-company-logo.png')} alt='logo'/></div></Link>
+        
         <div className='nav-number'>
-          <Link to="/">HOME</Link>
-        </div>
-        <div className='nav-number'>
-            <Link to="/free-estimate">FREE ESTIMATE</Link>
+          <Link to="/"><div className='nav-links'>HOME</div></Link> 
+            <Link to="/free-estimate"><div className='nav-links'>FREE ESTIMATE</div></Link>
         </div>
       </div>
     </div>

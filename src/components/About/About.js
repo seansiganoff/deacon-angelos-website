@@ -27,11 +27,11 @@ const About = () => {
               <br /><br />
               
               <ul>
-                <li><h3>Certified Technicians</h3></li>
-                <li><h3>We accept all insurance companies</h3></li>
-                <li><h3>24-7 Towing Service Available</h3></li>
-                <li><h3>Free Pickup-and Drop off service</h3></li>
-                <li><h3>Discounts on rental cars</h3></li>
+                <li className='about-list-items'><h3>Certified Technicians</h3></li>
+                <li className='about-list-items'><h3>We accept all insurance companies</h3></li>
+                <li className='about-list-items'><h3>24-7 Towing Service Available</h3></li>
+                <li className='about-list-items'><h3>Free Pickup-and Drop off service</h3></li>
+                <li className='about-list-items'><h3>Discounts on rental cars</h3></li>
                 
               </ul>
               

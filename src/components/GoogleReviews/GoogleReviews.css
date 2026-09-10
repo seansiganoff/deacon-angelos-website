@@ -6,7 +6,11 @@
 
 .google-reviews-container {
     padding: 3rem 10px;
-    background-color: rgb(217, 236, 253);
+    background-color: rgb(133, 133, 133);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.596)), url('../../images/background-costumers.png');
+    background-repeat: repeat;
+    
+    
 }
 
 .google-img {
@@ -115,8 +119,9 @@ video {
 
 .carousel-container {
   width: 80%;
-  background-color: rgb(217, 236, 253);
+  background-color: rgba(255, 255, 255, 0.55);
   margin: 0 auto;
+  color: white;
 }
 
 .react-multiple-carousel__arrow {
