@@ -36,7 +36,9 @@ const Insurance = () => {
                 We offer deductible assistance: We will waive $1,000 of your deductible, without sacrificing quality so you can get your vehicle repaired with less out-of-pocket expense. 
                 <br />Is your vehicle not undrivable? We offer 24-7 towing for all collision claims!</p>
               <br />
-              <div style={{color: 'green'}}>FOR MORE INFORMATION REGARDING OUR $0 DEDUCTIBLE PROGRAM, CALL NOW AND ASK HOW!</div>
+              <a href="tel:972-799-6031">
+                <div className='insurance-call-btn'>For more information regarding our <b>$0 DEDUCTIBLE PROGRAM</b>, call now and ask how!</div>
+              </a>
             {/* <div className='insurance-icon-div'>
                 <img className='insurance-icons' src={require('../../images/allstate-logo.png')} alt='allstate logo' />
                 <img className='insurance-icons' src={require('../../images/GEICO-logo.png')} alt='geico logo' />

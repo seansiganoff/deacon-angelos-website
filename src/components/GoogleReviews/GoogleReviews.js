@@ -97,12 +97,39 @@ const GoogleReviews = ({close}) => {
               </div>
             </div> 
           </div>
+          <div className='carousel-card'>
+            <div className='carousel-image-container'>
+              <div className='google-reviews-text'>
+                <img style={{width: '60px'}} src={require('../../images/google-reviews-costumers-img-4.png')} alt='costumers 3' />
+                <h4>Lawrence Joseph</h4>
+                <img style={{width: '130px'}} src={require('../../images/5-star-new-2.png')} alt='star' /><br /><br />
+<p>I came to this body shop to get my vehicle repaired and I have to say they did a Fantastic job. 
+I went to two other Auto Shops and after getting an estimate from Adjustable Auto Body Repair, they gave me a great deal , Highly recommended if you’re looking to get your vehicle fixed in the area or if you’re trying to find a reliable and good auto body repair shop . 
+You can definitely count on them. I know I did and they did not Disappoint, They’re not just reliable. They’re dependable great honest work and pricing. 
+They truly deserve this review 5 Stars complete class all the way Thank you.
+                </p>
+              </div>
+            </div> 
+          </div>
+          <div className='carousel-card'>
+            <div className='carousel-image-container'>
+              <div className='google-reviews-text'>
+                <img style={{width: '60px'}} src={require('../../images/google-reviews-costumers-img-5.png')} alt='costumers 3' />
+                <h4>Addis Ababa</h4>
+                <img style={{width: '130px'}} src={require('../../images/5-star-new-2.png')} alt='star' /><br /><br />
+
+                <p>Came across adjustable auto body repair. They were super sensitive to my needs on getting my vehicle back up and running. 
+                  The reviews speak for themselves. They did a fantastic job on repairing my Honda. They have definitely gained a customer for life. 
+                  Highly recommended.
+5 five stars!</p>
+              </div>
+            </div> 
+          </div>
           
               
             
         </Carousel>
       </div>
-
 
 
 
