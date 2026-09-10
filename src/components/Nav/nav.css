@@ -72,11 +72,11 @@
   }
 
 
-ul {
+.nav-container ul {
     list-style: none;
 }
 
-li {
+.nav-container li {
     margin: 20px 0;
 }
 

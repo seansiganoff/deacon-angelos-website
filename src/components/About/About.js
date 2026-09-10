@@ -14,7 +14,7 @@ const About = () => {
             <div  className="about-us-text-container">
               <h2 style={{color: 'red'}}>Our Commitment</h2><br /><br />
                 <p>
-                   At adjustable Auto Body, we’re committed to providing high-quality collision repairs at competitive prices, without compromising on workmanship or customer service. 
+                   At Adjustable Auto Body, we’re committed to providing high-quality collision repairs at competitive prices, without compromising on workmanship or customer service. 
                    We offer free towing to make the repair process as convenient as possible, and we stand behind our work with guaranteed results. 
                    Our experienced team follows the best practices and industry standards to ensure every vehicle is repaired safely, professionally, and with attention to detail. 
                    From minor damage to major collision repairs, you can count on Adjustable Auto Body to get you back on the road with confidence.
