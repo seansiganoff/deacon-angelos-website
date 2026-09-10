@@ -163,9 +163,10 @@ a:visited {
         font-size: x-large;
     }
     .nav-links {
-        justify-content: space-evenly;
-        margin: 0;
-        font-size: x-large;
+        margin-left: 15px;
+        margin-right: 7px;
+        padding: 5px 15px;
+        font-size: small;
     }
     
     .nav-business-name {
@@ -176,6 +177,14 @@ a:visited {
     }
     .nav-number {
         font-size: small;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    .nav-links {
+        font-size: x-small;
     }
 }
 
