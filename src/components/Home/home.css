@@ -172,7 +172,7 @@
     }
     
     .company-logo {
-        max-width: 420px;
+        max-width: 80vw;
     }
 }
 @media only screen and (max-width: 450px) {
