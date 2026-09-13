@@ -42,7 +42,7 @@ const Home = () => {
               ease: [0, 0.71, 0.2, 1.01]
             }}>
              <motion.h1 variants={itemVariants}>WELCOME TO ADJUSTABLE AUTO BODY</motion.h1>
-             <motion.p style={{fontSize: 'small', paddingTop: '5px', color: 'silver', }} variants={itemVariants}>QUALITY REPAIRS | TRUSTED SERVICE</motion.p><br />
+             <motion.p style={{fontSize: 'small', paddingTop: '5px', color: 'silver',}} variants={itemVariants}>QUALITY REPAIRS | TRUSTED SERVICE</motion.p><br />
             <img className='company-logo' src={require('../../images/company-logo-new-design.png')} alt='company logo'/><br /><br />
             
             <Link to="https://maps.app.goo.gl/6zc59e5Yn4oG5STLA">
@@ -50,14 +50,18 @@ const Home = () => {
                 <img style={{width: '60px'}} src={require('../../images/map-icon.png')} alt='map icon'/>
                 <p><b style={{color: 'white'}}>Address: Service Road, 201 N Central Expy, <br />Richardson, TX 75080.</b></p>
               </div>
-            </Link>
-        </motion.div>
+                </Link>
+            </motion.div>
               
             
           </div>
           
         </div>
-
+        {/*/////////////////// insurance deductible banner img /////////////////////////////*/}
+        <div className='deductible-banner-div'>
+          
+          <a href="tel:972-799-6031"><img src={require('../../images/home-deductible.jpg')} alt='deductible banner'/></a>
+        </div>
         {<About />}
         {<Insurance />}
         {<GoogleReviews />}

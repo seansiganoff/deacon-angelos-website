@@ -57,7 +57,15 @@
 }
 
 
+.deductible-banner-div {
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: black;
+}
 
+.deductible-banner-div img {
+    width: 80%;
+}
 
 
 .google-map {
@@ -160,6 +168,9 @@
     .home-locations-bottom {
         width: 60%;
         font-size: x-large;
+    }
+    .deductible-banner-div img {
+        width: 100%;
     }
 }
 
