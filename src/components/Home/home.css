@@ -173,8 +173,7 @@
         width: 100%;
     }
     .deductible-banner-div {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding: 2rem 5px 0rem 5px;
     }
 }
 
