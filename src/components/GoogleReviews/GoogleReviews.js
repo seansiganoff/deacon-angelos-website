@@ -43,7 +43,7 @@ const GoogleReviews = ({close}) => {
     <div className='google-reviews-container'>
       <div className='carousel-container'>
         <img className='google-reviews-icon' src={require('../../images/Google-Reviews-benny.jpg')} alt='reviews' />
-        <h2>Check Out What Our Costumers Are Saying!</h2>
+        <h2>Check out what costumers are saying!</h2>
         <div className='carousel-text'>
         </div>
         <Carousel responsive={responsive}>

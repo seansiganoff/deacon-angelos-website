@@ -85,6 +85,8 @@ a:visited, button {
 
 .google-reviews-icon {
     width: 300px;
+    padding: 1rem;
+    background-color: white;
 }
 
 
@@ -119,7 +121,7 @@ video {
 
 .carousel-container {
   width: 80%;
-  background-color: rgba(255, 255, 255, 0.55);
+  background-color: rgba(255, 255, 255, 0);
   margin: 0 auto;
   color: white;
 }
