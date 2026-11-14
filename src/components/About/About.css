@@ -136,6 +136,12 @@
     .about-us-text-container {
         line-height: 21px;
     }
+    br {
+        display: none;
+    }
+    .about h2 {
+        margin-bottom: 1rem;
+    }
 }
 
 
