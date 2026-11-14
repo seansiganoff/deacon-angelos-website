@@ -52,7 +52,17 @@ const GoogleReviews = ({close}) => {
                 <div className="video-wrapper">
                   <h3 >Costumer Testimonial</h3><br />
                   <video controls muted poster={require("../../images/angelos-screen-shot.png")}>
-                  <source className="video" src={require("../../images/angelos-videos.mp4")} type="video/mp4" />
+                  <source className="video" src={require("../../videos/angelos-videos.mp4")} type="video/mp4" />
+                  </video>
+                </div>
+              </div>  
+            </div>
+            <div className='carousel-card'>
+              <div className='carousel-image-container'>
+                <div className="video-wrapper">
+                  <h3 >Costumer Testimonial</h3><br />
+                  <video controls muted poster={require("../../images/Screenshot-red-truck.png")}>
+                  <source className="video" src={require("../../videos/IMG_2288.mp4")} type="video/mp4" />
                   </video>
                 </div>
               </div>  
